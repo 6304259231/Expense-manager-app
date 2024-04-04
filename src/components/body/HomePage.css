@@ -1,0 +1,70 @@
+#home-page-table-section{
+    width: 85%;
+    border: 2px silid tomato;
+    margin: 40px auto !important;
+}
+
+table tr, th 
+ {
+    padding: 28px;
+    box-shadow: 2px 3px 4px grey;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+    position: sticky;
+    top: 90px;
+    padding: 24px 34px;
+}
+
+table td {
+    text-align: left;
+    padding: 18px 32px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .8);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+table button{
+    border: none;
+    background-color: #ffffffff;
+}
+
+form .error-name{
+    display: block;
+    color: tomato;
+    font-family: monospace;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+@media only screen and (max-width : 645px) {
+    #home-page-table-section{
+        width: 92%;
+        overflow-x: auto;
+    }
+    table tr, th {
+    padding: 12px;
+    }
+    table {
+        width: 75%;
+    }
+    form {
+        width: 95%;
+        margin: 20px 4px;
+        padding: 2px;
+    }
+    .form-section{
+        width: 95% !important;
+        padding: 5px !important;
+    }
+}
